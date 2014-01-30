@@ -1,3 +1,4 @@
+Attribute VB_Name = "Module1"
 Sub AllVulnerabilityReportMS()
 Cells.Select
 Selection.RowHeight = 15
@@ -244,4 +245,6 @@ ActiveSheet.Range(filterString).AutoFilter Field:=11, Criteria1:="5"
 Selection.AutoFilter
 
 End Sub
+
+
 
